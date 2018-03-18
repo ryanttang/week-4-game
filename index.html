@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Star wars RPG</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Container for Game -->
+    <div id = "container">
+
+        <!-- Title -->
+        <h1 id = "logo">Star Wars RPG</h1>
+
+        <!-- Character Selection -->
+        <h1 class = "game_header">Your Character</h1>
+        <!-- Div for Character List -->
+        <div id = "char_list">
+            <div id = "yoda" class = "stats_card" value = "200">
+                <h2>Master Yoda</h2>
+                <img src = "assets/images/yoda.png">
+                <p id = "yoda_hp">200</p>
+            </div>
+
+            <div id= "mace" class = "stats_card" value = "180">
+                <h2>Samuel L. Jackson</h2>
+                <img src = "assets/images/mace.png">
+                <p id = "mace_hp">180</p>
+            </div>
+
+            <div id = "quigon" class = "stats_card" value = "160">
+                <h2>Qui-Gon Jinn</h2>
+                <img src = "assets/images/taken.pg">
+                <p id = "quigon_hp">160</p>
+            </div>
+
+            <div id = "childish" class = "stats_card" value = "150">
+                <h2>Childish Gambino</h2>
+                <img src = "assets/images/donald.png">
+                <p id = "childish_hp">150</p>
+            </div>
+     </div>
+
+        <!-- Enemy List -->
+        <h1 class = "game_header">Enemies Attacking You</h1>
+        <div id = "enemy_list"></div>
+
+        <!-- Attack Button -->
+        <h1 class = "game_header">Fight!</h1>
+        <button id = "attack">Attack</button>
+
+        <!-- Defender List -->
+        <h1 class = "game_header">Defender</h1>
+        <div id = "defend_list"></div>
+
+        <!-- Battle Comments -->
+        <div id = "battle_comments" class = "game_header"></div>
+
+    </div>
+ 
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
