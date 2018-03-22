@@ -2,8 +2,8 @@
 #logo { 
     float: right;
     font-size: 65px;
-    color: #ffff80;
-    font-family: Impact, Charcoal, sans-serif;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Charcoal, sans-serif;
     margin-right: 5%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -14,7 +14,7 @@
 
 /* Background */
 body {
-    background-image: url("..images/star_wars_background.png");
+    background-image: url("../images/star_wars_background.jpg");
     z-index: -99;
     width: 100%;
     height: 100%;
@@ -28,8 +28,8 @@ body {
 
 /* Images */
 img {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 175px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -41,6 +41,7 @@ img {
     border-color: black;
     float: left;
     width: 180px;
+    height: 275px;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
